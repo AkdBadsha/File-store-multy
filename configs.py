@@ -3,8 +3,8 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "21748181"))
   API_HASH = os.environ.get("API_HASH", "b1d962414e186e0778911f3183feac33'")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "5480252978:AAHxXxAUodJGG4Vdvuoi4VBYRIi4fq8kDVQ")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Movie_LinkBot")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6579218334:AAHWqpaIGxz3Ra3OaLc4-kaXpRoyu0g9UFE")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Dub_Town_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001718789952"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
